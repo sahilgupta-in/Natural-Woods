@@ -1,38 +1,45 @@
+import nature from "../assets/nature/02.webp";
+import humanFigure from "../assets/humanfigure/03.webp";
+import abstract from "../assets/abstract/07.webp";
+import historical from "../assets/historical/01.webp";
+import spiritual from "../assets/spiritual/09.webp";
+import wallArt from "../assets/wall-art/wall15.webp";
+
 export const collections = [
   {
     id: "01",
     title: "Nature Paintings",
-    image: "/src/assets/nature/02.webp",
+    image: nature,
     slug: "/collections/nature",
   },
   {
     id: "02",
     title: "Human Figure Paintings",
-    image: "/src/assets/humanfigure/03.webp",
+    image: humanFigure,
     slug: "/collections/human-figure",
   },
   {
     id: "03",
     title: "Abstract Paintings",
-    image: "/src/assets/abstract/07.webp",
+    image: abstract,
     slug: "/collections/abstract",
   },
   {
     id: "04",
     title: "Historical Paintings",
-    image: "/src/assets/historical/01.webp",
+    image: historical,
     slug: "/collections/historical",
   },
   {
     id: "05",
     title: "Spiritual Paintings",
-    image: "/src/assets/spiritual/09.webp",
+    image: spiritual,
     slug: "/collections/spiritual",
   },
   {
     id: "06",
     title: "Wall Arts",
-    image: "/src/assets/wall-art/wall15.webp",
+    image: wallArt,
     slug: "/collections/wallart",
   },
 ];

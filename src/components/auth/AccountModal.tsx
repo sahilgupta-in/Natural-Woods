@@ -41,7 +41,7 @@ export default function AccountModal({ open, onClose }: AccountModalProps) {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-sm p-4"
+         className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-sm p-3 sm:p-4"
           onClick={onClose}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -68,7 +68,7 @@ export default function AccountModal({ open, onClose }: AccountModalProps) {
               duration: 0.3,
               ease: "easeOut",
             }}
-            className="relative w-full  max-w-md rounded-3xl bg-[#FDFBF7] p-8 shadow-2xl"
+          className="relative w-[95vw] sm:w-full sm:max-w-md max-h-[90vh] overflow-y-auto rounded-3xl bg-[#FDFBF7] p-5 sm:p-8 shadow-2xl"
           >
             <AuthHeader
               title="Welcome Back"
