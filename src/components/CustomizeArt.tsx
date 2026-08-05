@@ -28,6 +28,7 @@ const steps = [
 
 export default function CustomizeArt() {
   const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
 
   const [form, setForm] = useState({
     name: "",
@@ -54,6 +55,9 @@ export default function CustomizeArt() {
     setLoading(true);
 
     try {
+      console.log("Service ID:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
+      console.log("Template ID:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
+      console.log("Public Key:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
       await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
@@ -67,8 +71,9 @@ export default function CustomizeArt() {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
-      alert("Your customization request has been sent successfully!");
-
+      setSuccessMessage(
+        "Thank you! Your customization request has been received. We'll review your requirements and get back to you within 24–48 hours.",
+      );
       setForm({
         name: "",
         email: "",
@@ -142,6 +147,14 @@ export default function CustomizeArt() {
               Customize Your Art
             </h3>
 
+            {successMessage && (
+              <div className="mb-6 rounded-xl border border-green-200 bg-green-50 p-4 text-green-700">
+                <h4 className="font-semibold text-lg">
+                  ✓ Request Sent Successfully!
+                </h4>
+                <p className="mt-2 text-sm">{successMessage}</p>
+              </div>
+            )}
             <form onSubmit={handleSubmit} className="space-y-6">
               <input
                 type="text"
