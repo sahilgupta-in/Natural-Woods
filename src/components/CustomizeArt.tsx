@@ -1,3 +1,5 @@
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { FileText, BadgeIndianRupee, Paintbrush } from "lucide-react";
 
 const steps = [
@@ -25,18 +27,80 @@ const steps = [
 ];
 
 export default function CustomizeArt() {
+  const [loading, setLoading] = useState(false);
+
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    product: "",
+    message: "",
+  });
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
+  ) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    setLoading(true);
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          phone: form.phone,
+          product: form.product,
+          message: form.message,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      );
+
+      alert("Your customization request has been sent successfully!");
+
+      setForm({
+        name: "",
+        email: "",
+        phone: "",
+        product: "",
+        message: "",
+      });
+    } catch (error: any) {
+      console.error("EmailJS Error:", error);
+
+      if (error?.text) {
+        alert(error.text);
+      } else {
+        alert("Failed to send request.");
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section className="bg-white py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="mb-16 text-center">
           <div className="flex items-center justify-center gap-4">
-            <h3 className="text-2xl sm:text-3xl font-semibold text-[#2F2115]">
+            <h3 className="text-2xl font-semibold text-[#2F2115] sm:text-3xl">
               Customize
             </h3>
           </div>
 
-          <h2 className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2F2115]">
+          <h2 className="mt-2 text-4xl font-bold text-[#2F2115] sm:text-5xl lg:text-6xl">
             Your Wooden Art
           </h2>
 
@@ -51,7 +115,7 @@ export default function CustomizeArt() {
           <div className="space-y-12">
             {steps.map(({ number, title, description, icon: Icon }) => (
               <div key={number} className="flex gap-6">
-                <span className="min-w-[70px] text-5xl lg:text-6xl font-bold text-[#E8E2D8]">
+                <span className="min-w-[70px] text-5xl font-bold text-[#E8E2D8] lg:text-6xl">
                   {number}
                 </span>
 
@@ -78,44 +142,66 @@ export default function CustomizeArt() {
               Customize Your Art
             </h3>
 
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <input
                 type="text"
+                name="name"
+                value={form.name}
+                onChange={handleChange}
                 placeholder="Name"
+                required
                 className="w-full border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]"
               />
 
               <input
                 type="email"
+                name="email"
+                value={form.email}
+                onChange={handleChange}
                 placeholder="Email"
+                required
                 className="w-full border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]"
               />
 
               <input
                 type="tel"
+                name="phone"
+                value={form.phone}
+                onChange={handleChange}
                 placeholder="Phone"
+                required
                 className="w-full border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]"
               />
 
-              <select className="w-full border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]">
-                <option>Select Product</option>
-                <option>Paintings</option>
-                <option>Wall Art</option>
-                <option>Sculptures</option>
-                
+              <select
+                name="product"
+                value={form.product}
+                onChange={handleChange}
+                required
+                className="w-full border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]"
+              >
+                <option value="">Select Product</option>
+                <option value="Paintings">Paintings</option>
+                <option value="Wall Art">Wall Art</option>
+                <option value="Sculptures">Sculptures</option>
               </select>
 
               <textarea
                 rows={5}
+                name="message"
+                value={form.message}
+                onChange={handleChange}
                 placeholder="Describe your customization..."
+                required
                 className="w-full resize-none border-b border-gray-400 bg-transparent py-3 outline-none focus:border-[#C79A3B]"
               />
 
               <button
                 type="submit"
-                className="rounded-full bg-[#C79A3B] px-8 py-4 font-medium text-white transition-all duration-300 hover:bg-[#A87A2E]"
+                disabled={loading}
+                className="rounded-full bg-[#C79A3B] px-8 py-4 font-medium text-white transition-all duration-300 hover:bg-[#A87A2E] disabled:cursor-not-allowed disabled:opacity-60"
               >
-                Send Request
+                {loading ? "Sending..." : "Send Request"}
               </button>
             </form>
           </div>

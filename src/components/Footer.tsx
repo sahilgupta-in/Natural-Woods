@@ -82,7 +82,7 @@ export default function Footer() {
 
               <div className="flex items-center gap-3">
                 <MdEmail />
-                <span>mailsudhirshetty@gmail.com</span>
+                <span>contact@naturalwoodssangli.com</span>
               </div>
 
               <div className="flex items-start gap-3">
