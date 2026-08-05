@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 
-export interface ContactFormData {
+export interface ContactFormData 
+extends Record<string, unknown> {
   from_name: string;
   from_email: string;
   phone: string;
