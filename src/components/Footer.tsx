@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo2.png";
 import {
-  FaFacebookF,
+  FaFacebook,
   FaInstagram,
   
-} from "react-icons/fa";
+} from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
 export default function Footer() {
@@ -21,13 +21,13 @@ export default function Footer() {
               premium natural wood created with timeless craftsmanship.
             </p>
 
-            <div className="mt-6 flex gap-4">
+            <div className="mt-6 flex gap-4 ">
               <a href="https://www.facebook.com/naturalwoods.sangli.2025">
-                <FaFacebookF className="text-xl  transition" />
+                <FaFacebook className="text-2xl hover:text-[#C79A3B] transition" />
               </a>
 
               <a href="https://www.instagram.com/naturalwoods_sangli">
-                <FaInstagram className="text-xl  transition" />
+                <FaInstagram className="text-2xl hover:text-[#C79A3B] transition" />
               </a>
 
              

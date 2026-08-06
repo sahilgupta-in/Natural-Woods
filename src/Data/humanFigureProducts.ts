@@ -10,6 +10,8 @@ import product5 from "../assets/humanfigure/05.webp";
 import product5copy from "../assets/humanfigure/05-02.webp";
 import product6 from "../assets/humanfigure/06.webp";
 import product6copy from "../assets/humanfigure/06-02.webp";
+import wall1 from "../assets/wall-art/wall1.webp";
+import wall1copy from "../assets/wall-art/wall1copy.webp";
 
 import product8 from "../assets/humanfigure/08.webp";
 import product8copy from "../assets/humanfigure/08-02.webp";
@@ -38,6 +40,21 @@ import product19copy from "../assets/humanfigure/19-02.webp";
 import type { ProductItem } from "./productHelpers";
 
 export const humanFigureProducts: ProductItem[] = [
+   {
+    id: "wall-art-1",
+    slug: "mother-baby-love-wooden-wall-art-set",
+    name: "Mother & Baby Love Wooden Wall Art Set",
+    image: wall1,
+    images: [wall1copy, wall1],
+    description:
+      "Celebrate the beautiful bond between mother and child with this handcrafted wooden wall art set. Featuring elegant floral accents, minimalist line art, and heart-inspired details, this decorative piece symbolizes love, care, and new beginnings. Its premium craftsmanship and warm finish make it a meaningful addition to modern homes and nurseries.",
+    dimensions: '48 × 30 inches',
+    medium: "Natural Wood",
+    material: "Carved in corex sheet",
+    designType: "Mother & Baby Line Art, Floral Decorative Theme",
+    occasion: "Living Room Wall Decor, Nursery & Baby Room",
+    
+  },
   {
     id: 1,
     slug: "traditional-indian-classical-dancer-wall-art",

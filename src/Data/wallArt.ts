@@ -1,5 +1,4 @@
-import wall1 from "../assets/wall-art/wall1.webp";
-import wall1copy from "../assets/wall-art/wall1copy.webp";
+
 import wall2 from "../assets/wall-art/wall2.webp";
 import wall2copy from "../assets/wall-art/wall2copy.webp";
 import wall2img from "../assets/wall-art/wall2img.webp";
@@ -77,21 +76,7 @@ const defaultReviews = [
 ];
 
 export const wallArtProducts: ProductItem[] = [
-  {
-    id: "wall-art-1",
-    slug: "mother-baby-love-wooden-wall-art-set",
-    name: "Mother & Baby Love Wooden Wall Art Set",
-    image: wall1,
-    images: [wall1copy, wall1],
-    description:
-      "Celebrate the beautiful bond between mother and child with this handcrafted wooden wall art set. Featuring elegant floral accents, minimalist line art, and heart-inspired details, this decorative piece symbolizes love, care, and new beginnings. Its premium craftsmanship and warm finish make it a meaningful addition to modern homes and nurseries.",
-    dimensions: '48 × 30 inches',
-    medium: "Natural Wood",
-    material: "Carved in corex sheet",
-    designType: "Mother & Baby Line Art, Floral Decorative Theme",
-    occasion: "Living Room Wall Decor, Nursery & Baby Room",
-    reviews: defaultReviews,
-  },
+ 
 
   {
     id: "wall-art-2",

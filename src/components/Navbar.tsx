@@ -44,24 +44,24 @@ const navLinks = [
     ],
   },
   {
+    name: "Wall Art",
+    path: "/collections/wallart",
+  },
+  {
     name: "Wooden Creations",
     submenu: [
       {
         name: "Wooden Sculptures",
         path: "/collections/wooden-creations/sculptures",
       },
-      
+
       {
         name: "Pumpkin Lamps",
         path: "/collections/wooden-creations/pumpkin-lamps",
       },
     ],
   },
-  {
-    name: "Wall Art",
-    path: "/collections/wallart",
-  },
-  
+
   {
     name: "About Us",
     path: "/about",
