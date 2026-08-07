@@ -8,10 +8,7 @@ interface SearchModalProps {
   onClose: () => void;
 }
 
-export default function SearchModal({
-  open,
-  onClose,
-}: SearchModalProps) {
+export default function SearchModal({ open, onClose }: SearchModalProps) {
   const [query, setQuery] = useState("");
 
   const products = getAllProducts();
@@ -20,7 +17,7 @@ export default function SearchModal({
     if (!query.trim()) return [];
 
     return products.filter((product) =>
-      product.name.toLowerCase().includes(query.toLowerCase())
+      product.name.toLowerCase().includes(query.toLowerCase()),
     );
   }, [query, products]);
 
@@ -29,10 +26,8 @@ export default function SearchModal({
   return (
     <div className="fixed inset-0 z-[999] bg-black/50 backdrop-blur-sm">
       <div className="mx-auto mt-20 w-[95%] max-w-3xl overflow-hidden rounded-2xl bg-white shadow-2xl">
-
         {/* Search Header */}
         <div className="flex items-center border-b px-6 py-4">
-
           <Search size={22} className="text-gray-500" />
 
           <input
@@ -50,11 +45,8 @@ export default function SearchModal({
 
         {/* Search Results */}
         <div className="max-h-[500px] overflow-y-auto">
-
           {query && filteredProducts.length === 0 && (
-            <p className="p-8 text-center text-gray-500">
-              No products found.
-            </p>
+            <p className="p-8 text-center text-gray-500">No products found.</p>
           )}
 
           {filteredProducts.map((product) => (
@@ -74,9 +66,7 @@ export default function SearchModal({
               />
 
               <div>
-                <h3 className="font-semibold text-[#2F2115]">
-                  {product.name}
-                </h3>
+                <h3 className="font-semibold text-[#2F2115]">{product.name}</h3>
 
                 <p className="mt-1 text-sm capitalize text-gray-500">
                   {product.category.replace(/-/g, " ")}

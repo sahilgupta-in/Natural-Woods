@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo2.png";
-import {
-  FaFacebook,
-  FaInstagram,
-  
-} from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
 export default function Footer() {
@@ -20,18 +16,6 @@ export default function Footer() {
               Discover handcrafted wooden decor, wall art, sculptures, and
               premium natural wood created with timeless craftsmanship.
             </p>
-
-            <div className="mt-6 flex gap-4 ">
-              <a href="https://www.facebook.com/naturalwoods.sangli.2025">
-                <FaFacebook className="text-2xl hover:text-[#C79A3B] transition" />
-              </a>
-
-              <a href="https://www.instagram.com/naturalwoods_sangli">
-                <FaInstagram className="text-2xl hover:text-[#C79A3B] transition" />
-              </a>
-
-             
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -49,7 +33,9 @@ export default function Footer() {
                 <Link to="/wall-art">Wall Art</Link>
               </li>
               <li>
-                <Link to="/collections/wooden-creations/sculptures">Sculptures</Link>
+                <Link to="/collections/wooden-creations/sculptures">
+                  Sculptures
+                </Link>
               </li>
               <li>
                 <Link to="/about">About us</Link>
@@ -62,33 +48,92 @@ export default function Footer() {
             <h3 className="mb-5 text-xl font-semibold">Collections</h3>
 
             <ul className="space-y-3 text-[#3A2A1D]">
-              <li><Link to="/collections/nature">Nature Paintings</Link></li>
-              <li><Link to="/collections/human-figure">Human Figure Paintings</Link></li>
-              <li><Link to="/collections/abstract">Abstract Paintings</Link></li>
-              <li><Link to="/collections/historical">Historical Paintings</Link></li>
-              <li><Link to="/collections/spiritual">Spiritual Paintings</Link></li>
+              <li>
+                <Link to="/collections/nature">Nature Paintings</Link>
+              </li>
+              <li>
+                <Link to="/collections/human-figure">
+                  Human Figure Paintings
+                </Link>
+              </li>
+              <li>
+                <Link to="/collections/abstract">Abstract Paintings</Link>
+              </li>
+              <li>
+                <Link to="/collections/historical">Historical Paintings</Link>
+              </li>
+              <li>
+                <Link to="/collections/spiritual">Spiritual Paintings</Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h3 className="mb-5 text-xl font-semibold">Contact Us</h3>
+            <h3 className="mb-6 text-xl font-semibold text-[#3A2A1D]">
+              Contact Us
+            </h3>
 
-            <div className="space-y-4 text-[#3A2A1D]">
-              <div className="flex items-center gap-3">
-                <MdPhone />
+            <div className="space-y-5 text-[#3A2A1D]">
+              {/* Phone */}
+              <a
+                href="tel:+918484848401"
+                className="flex items-center gap-3 transition-colors "
+              >
+                <MdPhone className="text-xl flex-shrink-0" />
                 <span>+91 84848 48401</span>
-              </div>
+              </a>
 
-              <div className="flex items-center gap-3">
-                <MdEmail />
+              {/* Email */}
+              <a
+                href="mailto:contact@naturalwoodssangli.com"
+                className="flex items-center gap-3 transition-colors "
+              >
+                <MdEmail className="text-xl flex-shrink-0" />
                 <span>contact@naturalwoodssangli.com</span>
-              </div>
+              </a>
 
-              <div className="flex items-start gap-3">
-                <MdLocationOn className="mt-1" />
-                <span>Sangli, India</span>
-              </div>
+              {/* Address */}
+              <a
+                href="https://maps.google.com/?q=Naturalwoods+Unity+Heights+Near+Halad+Bhavan+Canteen+Vakharbhag+Sangli+416416"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 transition-colors "
+              >
+                <MdLocationOn className="mt-1 text-2xl flex-shrink-0" />
+                <span className="leading-7">
+                  Natural Woods, Unity Heights
+                  <br />
+                   Near Halad Bhavan Canteen,
+                  <br />
+                  Vakhar Bhag, Sangli – 416416,
+                  <br />
+                  Maharashtra, India
+                </span>
+              </a>
+            </div>
+
+            {/* Social Links */}
+            <div className="mt-5 flex items-center gap-4">
+              <a
+                href="https://www.facebook.com/naturalwoods.sangli.2025"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="rounded-full border border-[#C79A3B] p-3 transition-all duration-300 hover:bg-[#C79A3B] hover:text-white"
+              >
+                <FaFacebook className="text-xl" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/naturalwoods_sangli"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="rounded-full border border-[#C79A3B] p-3 transition-all duration-300 hover:bg-[#C79A3B] hover:text-white"
+              >
+                <FaInstagram className="text-xl" />
+              </a>
             </div>
           </div>
         </div>
