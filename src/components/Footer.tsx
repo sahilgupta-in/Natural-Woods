@@ -147,9 +147,9 @@ export default function Footer() {
             </p>
 
             <p>
-              Created by{" "}
+              Website by{" "}
               <a
-                href="#"
+                href="https://www.parkingdesign.in/"
                 className="font-medium text-[#3A2A1D] transition-colors duration-300"
               >
                 Parking Design
