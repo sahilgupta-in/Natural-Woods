@@ -412,8 +412,8 @@ export const wallArtProducts: ProductItem[] = [
   },
   {
     id: "wall-art-21",
-    slug: "handcrafted-sanskrit-wooden-wall-art-plank",
-    name: "Handcrafted Sanskrit Wooden Wall Art plank",
+    slug: "shiv-mudra-wooden-wall-art-plank",
+    name: "Shiv Mudra Wooden Wall Art plank",
     image: wall21,
     images: [wall21img,wall21copy, wall21],
     description:
@@ -442,12 +442,12 @@ export const wallArtProducts: ProductItem[] = [
   },
   {
     id: "wall-art-23",
-    slug: "handcrafted-elephant-family-wooden-wall-art",
-    name: "Handcrafted Elephant Family Wooden Wall Art",
+    slug: "handcrafted-elephant-family-wall-art",
+    name: "Handcrafted Elephant Family Wall Art",
     image: wall23,
     images: [wall23copy, wall23img, wall23],
     description:
-      "Celebrate strength, wisdom, and family bonds with this handcrafted elephant wooden wall art. Featuring three intricately carved elephants against a vibrant circular backdrop, this premium natural wood artwork combines traditional craftsmanship with contemporary design. A striking décor piece that adds warmth, elegance, and cultural charm to modern homes and workspaces.",
+      "Celebrate strength, wisdom, and family bonds with this handcrafted elephant carved in corex sheet wall art. Featuring three intricately carved elephants against a vibrant circular backdrop, this premium natural wood artwork combines traditional craftsmanship with contemporary design. A striking décor piece that adds warmth, elegance, and cultural charm to modern homes and workspaces.",
     dimensions: '60 × 48 inches',
     medium: "Natural Wood",
     material: "Carved in corex sheet",
@@ -457,12 +457,12 @@ export const wallArtProducts: ProductItem[] = [
   },
   {
     id: "wall-art-24",
-    slug: "handcrafted-elephant-wooden-mosaic-wall-art",
-    name: "Handcrafted Elephant Wooden Mosaic Wall Art",
+    slug: "handcrafted-elephant-mosaic-wall-art",
+    name: "Handcrafted Elephant Mosaic Wall Art",
     image: wall24,
     images: [wall24copy, wall24],
     description:
-      "Elevate your interiors with this handcrafted elephant wooden mosaic wall art featuring a striking elephant portrait crafted through intricate textured detailing and contrasting tones. Made from premium natural wood, this masterpiece symbolizes wisdom, strength, and prosperity while adding timeless elegance to living rooms, offices, hotels, and luxury spaces.",
+      "Elevate your interiors with this handcrafted elephant carved in corex sheet mosaic wall art featuring a striking elephant portrait crafted through intricate textured detailing and contrasting tones. Made from premium natural wood, this masterpiece symbolizes wisdom, strength, and prosperity while adding timeless elegance to living rooms, offices, hotels, and luxury spaces.",
     dimensions: '60 × 48 inches',
     medium: "Natural Wood",
     material: "Carved in corex sheet",
@@ -472,8 +472,8 @@ export const wallArtProducts: ProductItem[] = [
   },
   {
     id: "wall-art-25",
-    slug: "horse-wooden-wall-art-painting",
-    name: "Horse Wooden Wall Art Painting",
+    slug: "handcrafted-horse-wall-art-painting",
+    name: "Handcrafted Horse Wall Art Painting",
     image: wall25,
     images: [wall25copy, wall25],
     description:
@@ -502,12 +502,12 @@ export const wallArtProducts: ProductItem[] = [
   },
   {
     id: "wall-art-27",
-    slug: "handcrafted-koi-fish-wooden-wall-art-painting",
-    name: "Handcrafted Koi Fish Wooden Wall Art Painting",
+    slug: "handcrafted-koi-fish-wall-art-painting",
+    name: "Handcrafted Koi Fish Wall Art Painting",
     image: wall27,
     images: [wall27],
     description:
-      "Bring serenity and elegance to your space with this handcrafted koi fish wooden wall art. Featuring vibrant koi swimming among textured pebbles and lush lotus leaves, this premium artwork combines natural beauty with fine craftsmanship. Its harmonious design creates a peaceful focal point for contemporary homes, offices, and wellness-inspired interiors.",
+      "Bring serenity and elegance to your space with this handcrafted koi fish carved in corex sheet wall art. Featuring vibrant koi swimming among textured pebbles and lush lotus leaves, this premium artwork combines natural beauty with fine craftsmanship. Its harmonious design creates a peaceful focal point for contemporary homes, offices, and wellness-inspired interiors.",
     dimensions: '18 × 24 inches',
     medium: "Natural Wood",
     material: "Carved in corex sheet",

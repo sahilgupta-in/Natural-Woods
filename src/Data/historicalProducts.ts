@@ -79,8 +79,8 @@ export const historicalProducts: ProductItem[] = [
   },
   {
     id: 5,
-    slug: "historic-forts-wooden-wall-art-panel-collection",
-    name: "Historic Forts Wooden Wall Art Panel Collection",
+    slug: "historic-forts-wall-art-panel-collection",
+    name: "Historic Forts Wall Art Panel Collection",
     image: product5,
     images: [product5copy, product5copy2, product5],
      description:

@@ -21,12 +21,12 @@ import type { ProductItem } from "./productHelpers";
 export const abstractProducts: ProductItem[] = [
   {
     id: 1,
-    slug: "golden-geometric-abstract-wooden-wall-art",
-    name: "Golden Geometric Abstract Wooden Wall Art",
+    slug: "golden-geometric-abstract-wall-art",
+    name: "Golden Geometric Abstract Wall Art",
     image: product1,
     images: [product1copy, product1],
     description:
-      "Enhance your interiors with this handcrafted abstract wooden wall art featuring a luxurious golden textured finish and geometric circular design. The premium craftsmanship, rich detailing, and contemporary aesthetic make it an eye-catching décor piece that complements modern, minimalist, and luxury spaces while adding warmth, elegance, and artistic sophistication.",
+      "Enhance your interiors with this handcrafted abstract carved in corex sheet wall art featuring a luxurious golden textured finish and geometric circular design. The premium craftsmanship, rich detailing, and contemporary aesthetic make it an eye-catching décor piece that complements modern, minimalist, and luxury spaces while adding warmth, elegance, and artistic sophistication.",
     dimensions: "24 × 24 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -37,12 +37,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 2,
-    slug: "luxury-geometric-abstract-wooden-wall-art-panel",
-    name: "Luxury Geometric Abstract Wooden Wall Art Panel",
+    slug: "luxury-geometric-abstract-wall-art-panel",
+    name: "Luxury Geometric Abstract Wall Art Panel",
     image: product2,
     images: [product2copy, product2],
     description:
-      "Bring elegance to your interiors with this handcrafted geometric abstract wooden wall art. Featuring a luxurious blend of bronze and gold tones, the textured relief design showcases intricate craftsmanship and modern aesthetics. Its premium finish and timeless appeal make it a striking centerpiece for contemporary, minimalist, and luxury living spaces.",
+      "Bring elegance to your interiors with this handcrafted geometric abstract carved in corex sheet wall art. Featuring a luxurious blend of bronze and gold tones, the textured relief design showcases intricate craftsmanship and modern aesthetics. Its premium finish and timeless appeal make it a striking centerpiece for contemporary, minimalist, and luxury living spaces.",
     dimensions: "36 × 24 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -53,12 +53,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 3,
-    slug: "golden-spiral-abstract-wooden-wall-art-panel",
-    name: "Golden Spiral Abstract Wooden Wall Art Panel",
+    slug: "golden-spiral-abstract-wall-art-panel",
+    name: "Golden Spiral Abstract Wall Art Panel",
     image: product3,
     images: [product3copy, product3],
     description:
-      "Transform your walls with this handcrafted abstract wooden wall art featuring elegant spiral motifs in rich gold and black tones. The textured relief surface and premium craftsmanship create a sophisticated visual statement, making it an ideal centerpiece for contemporary, minimalist, and luxury interiors with timeless artistic appeal and refined elegance.",
+      "Transform your walls with this handcrafted abstract carved in corex sheet wall art featuring elegant spiral motifs in rich gold and black tones. The textured relief surface and premium craftsmanship create a sophisticated visual statement, making it an ideal centerpiece for contemporary, minimalist, and luxury interiors with timeless artistic appeal and refined elegance.",
     dimensions: "24 × 36 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -69,12 +69,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 4,
-    slug: "golden-botanical-abstract-wooden-wall-art-panel",
-    name: "Golden Botanical Abstract Wooden Wall Art Panel",
+    slug: "golden-botanical-abstract-wall-art-panel",
+    name: "Golden Botanical Abstract Wall Art Panel",
     image: product4,
     images: [product4copy, product4],
     description:
-      "Enhance your interiors with this handcrafted abstract wooden wall art featuring a striking golden botanical leaf design against bold black and white geometric elements. The textured relief finish and premium craftsmanship create a sophisticated focal point, making it a perfect décor piece for modern, contemporary, and luxury living spaces.",
+      "Enhance your interiors with this handcrafted abstract carved in corex sheet wall art featuring a striking golden botanical leaf design against bold black and white geometric elements. The textured relief finish and premium craftsmanship create a sophisticated focal point, making it a perfect décor piece for modern, contemporary, and luxury living spaces.",
     dimensions: "24 × 36 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -85,12 +85,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 5,
-    slug: "golden-botanical-abstract-wooden-wall-art-panel",
-    name: "Golden Botanical Abstract Wooden Wall Art Panel",
+    slug: "golden-botanical-abstract-wall-art-panel",
+    name: "Golden Botanical Abstract Wall Art Panel",
     image: product5,
     images: [product5copy, product5],
      description:
-      "Add timeless elegance to your décor with this handcrafted abstract wooden wall art featuring luxurious golden botanical leaf motifs on a rich black textured background. Expertly crafted with intricate relief detailing, this premium artwork blends nature-inspired beauty with contemporary design, making it a stunning centerpiece for modern and luxury interior spaces.",
+      "Add timeless elegance to your décor with this handcrafted abstract carved in corex sheet wall art featuring luxurious golden botanical leaf motifs on a rich black textured background. Expertly crafted with intricate relief detailing, this premium artwork blends nature-inspired beauty with contemporary design, making it a stunning centerpiece for modern and luxury interior spaces.",
     dimensions: "24 × 36 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -101,12 +101,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 6,
-    slug: "blue-spiral-abstract-wooden-wall-art-panel",
-    name: "Blue Spiral Abstract Wooden Wall Art Panel",
+    slug: "blue-spiral-abstract-wall-art-panel",
+    name: "Blue Spiral Abstract Wall Art Panel",
     image: product6,
     images: [product6copy, product6],
     description:
-      "Enhance your space with this handcrafted abstract wooden wall art featuring bold blue and golden spiral motifs inspired by natural geometric forms. The textured relief design, intricate detailing, and premium craftsmanship create a striking visual statement, making it an elegant centerpiece for modern, contemporary, and luxury interior décor.",
+      "Enhance your space with this handcrafted abstract carved in corex sheet wall art featuring bold blue and golden spiral motifs inspired by natural geometric forms. The textured relief design, intricate detailing, and premium craftsmanship create a striking visual statement, making it an elegant centerpiece for modern, contemporary, and luxury interior décor.",
     dimensions: "24 × 36 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -117,12 +117,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 7,
-    slug: "golden-geometric-abstract-wooden-wall-art-panel",
-    name: "Golden Geometric Abstract Wooden Wall Art Panel",
+    slug: "golden-geometric-abstract-wall-art-panel",
+    name: "Golden Geometric Abstract Wall Art Panel",
     image: product7,
     images: [product7copy, product7],
      description:
-      "Elevate your interiors with this handcrafted abstract wooden wall art featuring striking golden geometric circular patterns against a textured black backdrop. The contemporary relief design, premium craftsmanship, and elegant monochrome palette create a sophisticated focal point, making it ideal for modern homes, offices, luxury interiors, and designer spaces.",
+      "Elevate your interiors with this handcrafted abstract mix media wall art featuring striking golden geometric circular patterns against a textured black backdrop. The contemporary relief design, premium craftsmanship, and elegant monochrome palette create a sophisticated focal point, making it ideal for modern homes, offices, luxury interiors, and designer spaces.",
     dimensions: "24 × 24 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -133,12 +133,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 8,
-    slug: "golden-circular-abstract-wooden-wall-art-panel",
-    name: "Golden Circular Abstract Wooden Wall Art Panel",
+    slug: "golden-circular-abstract-wall-art-panel",
+    name: "Golden Circular Abstract Wall Art Panel",
     image: product8,
     images: [product8copy, product8],
      description:
-      "Bring contemporary elegance to your space with this handcrafted abstract wooden wall art featuring concentric circular patterns made from textured wooden fragments in luxurious gold and charcoal tones. The striking three-dimensional relief design showcases exceptional craftsmanship, creating a sophisticated statement piece for modern homes, offices, hotels, and premium interior décor.",
+      "Bring contemporary elegance to your space with this handcrafted abstract mix media wall art featuring concentric circular patterns made from textured wooden fragments in luxurious gold and charcoal tones. The striking three-dimensional relief design showcases exceptional craftsmanship, creating a sophisticated statement piece for modern homes, offices, hotels, and premium interior décor.",
     dimensions: "24 × 24 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
@@ -149,12 +149,12 @@ export const abstractProducts: ProductItem[] = [
   },
   {
     id: 9,
-    slug: "modern-circular-abstract-wooden-wall-art-panel",
-    name: "Modern Circular Abstract Wooden Wall Art Panel",
+    slug: "modern-circular-abstract-wall-art-panel",
+    name: "Modern Circular Abstract Wall Art Panel",
     image: product9,
     images: [product9copy, product9],
      description:
-      "Transform your interiors with this handcrafted abstract wooden wall art featuring bold concentric circular patterns in black, gold, and turquoise. The textured relief design blends geometric precision with contemporary elegance, creating a captivating focal point that complements modern homes, offices, luxury hotels, and sophisticated commercial spaces with timeless artistic appeal.",
+      "Transform your interiors with this handcrafted abstract carved in corex sheet wall art featuring bold concentric circular patterns in black, gold, and turquoise. The textured relief design blends geometric precision with contemporary elegance, creating a captivating focal point that complements modern homes, offices, luxury hotels, and sophisticated commercial spaces with timeless artistic appeal.",
     dimensions: "24 × 24 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",

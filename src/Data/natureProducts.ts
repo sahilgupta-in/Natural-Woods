@@ -26,8 +26,8 @@ import type { ProductItem } from "./productHelpers";
 export const natureProducts: ProductItem[] = [
   {
     id: 1,
-    slug: "boat-on-lotus-lake-wooden-wall-art",
-    name: "Boat on Lotus Lake Wooden Wall Art",
+    slug: "boat-on-lotus-lake-wall-art",
+    name: "Boat on Lotus Lake Wall Art",
     image: product1,
     images: [product1copy, product1],
     description:
@@ -40,8 +40,8 @@ export const natureProducts: ProductItem[] = [
   },
   {
     id: 2,
-    slug: "blue-bloom-floral-wooden-wall-art",
-    name: "Blue Bloom Floral Wooden Wall Art",
+    slug: "blue-bloom-floral-wall-art",
+    name: "Blue Bloom Floral Wall Art",
     image: product2,
     images: [product2copy, product2],
     description:
@@ -54,8 +54,8 @@ export const natureProducts: ProductItem[] = [
   },
   {
     id: 3,
-    slug: "red-poppy-floral-wooden-wall-art",
-    name: "Red Poppy Floral Wooden Wall Art",
+    slug: "red-poppy-floral-wall-art",
+    name: "Red Poppy Floral Wall Art",
     image: product3,
     images: [product3copy, product3],
     description:
@@ -139,8 +139,8 @@ export const natureProducts: ProductItem[] = [
   },
   {
     id: 10,
-    slug: "vintage-sailing-ship-wooden-wall-art",
-    name: "Vintage Sailing Ship Wooden Wall Art",
+    slug: "vintage-sailing-ship-wall-art",
+    name: "Vintage Sailing Ship Wall Art",
     image: product10,
     images: [product10copy, product10],
     description:
@@ -149,7 +149,7 @@ export const natureProducts: ProductItem[] = [
     medium: "Natural Wood",
     material: "Carved in corex sheet",
     designType: "Nautical Art, Sailing Ship",
-    occasion: "Living Room Décor, Office Decoration, Study Room,",
+    occasion: "Living Room Décor, Office Decoration, Study Room,"
   },
   {
     id: 11,

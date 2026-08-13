@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo2.png";
+import logo from "../assets/naturalwoodslogo.png";
 import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 
@@ -126,22 +126,39 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.instagram.com/naturalwoods_sangli"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="rounded-full border border-[#C79A3B] p-3 transition-all duration-300 hover:bg-[#C79A3B] hover:text-white"
-              >
-                <FaInstagram className="text-xl" />
-              </a>
-            </div>
-          </div>
-        </div>
+                href="https://www.instagram.com/naturalwoods_sangli" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Instagram" 
+                className="rounded-full border border-[#C79A3B] p-3 transition-all duration-300 hover:bg-[#C79A3B] hover:text-white" 
+              > 
+                <FaInstagram className="text-xl" /> 
+              </a> 
+            </div> 
+          </div> 
+        </div> 
+ 
+        {/* Bottom Footer */}
+        <div className="mt-14 border-t border-[#3A2A1D]/15 pt-6">
+          <div className="flex flex-col items-center justify-between gap-3 text-center text-sm text-gray-600 md:flex-row">
 
-        <div className="mt-14 border-t border-white/20 pt-6 text-center text-sm text-gray-700">
-          © 2026 Natural Woods. All Rights Reserved.
-        </div>
-      </div>
-    </footer>
-  );
-}
+            <p>
+              © 2026 Natural Woods. All Rights Reserved.
+            </p>
+
+            <p>
+              Created by{" "}
+              <a
+                href="#"
+                className="font-medium text-[#3A2A1D] transition-colors duration-300"
+              >
+                Parking Design
+              </a>
+            </p>
+
+          </div>
+          </div>
+      </div> 
+    </footer> 
+  ); 
+} 
