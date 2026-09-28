@@ -69,10 +69,84 @@ import product47 from "../assets/spiritual/47.webp";
 import product48 from "../assets/spiritual/48.webp";
 import product49 from "../assets/spiritual/49-01.webp";
 import product49copy from "../assets/spiritual/49-02.webp";
+import product50 from "../assets/spiritual/50.webp"
+import product50copy from "../assets/spiritual/50-01.webp"
+import product51 from "../assets/spiritual/51.webp"
+import product51copy from "../assets/spiritual/51-01.webp"
+import product51copy2 from "../assets/spiritual/51-02.webp"
+import product52 from "../assets/spiritual/52.webp"
+import product52copy from "../assets/spiritual/52-01.webp"
+import product53 from "../assets/spiritual/53.webp"
+import product53copy from "../assets/spiritual/53-01.webp"
 
 import type { ProductItem } from "./productHelpers";
 
 export const spiritualProducts: ProductItem[] = [
+
+    {
+    id: 50,
+    slug: "krishna-and-radha-with-cows-traditional-spiritual-wall-art",
+    name: "Krishna & Radha with Cows Traditional Spiritual Wall Art",
+    image: product50copy,
+    images: [product50, product50copy],
+    description:
+      "Bring timeless Indian spirituality and serene beauty into your space with this beautifully detailed Radha Krishna wall artwork. The artwork depicts Lord Krishna playing his flute alongside Radha, surrounded by peaceful cows, lush greenery, colorful flowers, and a nature-inspired embossed frame. The vibrant blue, pink, turquoise, and earthy tones create a striking yet harmonious visual, while the intricate leaf-patterned border adds a rich handcrafted character to the piece.",
+    dimensions: "108 × 60 inches",
+    medium: "Natural Wood",
+    collection: "spiritual painting",
+    material: "carved in corex sheet",
+    designType: "Spiritual Art,Krishna and Radha Painting",
+    occasion:
+      "Living Room Wall Decor, Home Temple Decor, Spiritual Interior Design",
+  },
+    {
+    id: 51,
+    slug: "lord-shiva-3d-relief-wall-art-with-real-rudraksha-beads",
+    name: "Lord Shiva 3D Relief Wall Art with Real Rudraksha Beads",
+    image: product51copy2,
+    images: [product51, product51copy, product51copy2],
+    description:
+      "Bring timeless Indian spirituality and serene beauty into your space with this beautifully detailed Radha Krishna wall artwork. The artwork depicts Lord Krishna playing his flute alongside Radha, surrounded by peaceful cows, lush greenery, colorful flowers, and a nature-inspired embossed frame. The vibrant blue, pink, turquoise, and earthy tones create a striking yet harmonious visual, while the intricate leaf-patterned border adds a rich handcrafted character to the piece.",
+    dimensions: "60 × 84 inches",
+    medium: "Natural Wood",
+    collection: "spiritual painting",
+    material: "carved in corex sheet",
+    designType: "Lord Shiva, Mahadev 3D relief wall art",
+    occasion:
+      "Living Room Wall Decor, Home Temple Decor, Spiritual Interior Design",
+  },
+    {
+    id: 52,
+    slug: "jagannath-balabhadra-and-subhadra-–-traditional-spiritual-wall-art",
+    name: "Jagannath, Balabhadra & Subhadra Traditional Spiritual Wall Art",
+    image: product52,
+    images: [product52copy, product52],
+    description:
+      "Bring the divine presence of Lord Jagannath, Balabhadra, and Devi Subhadra into your home with this vibrant and beautifully detailed spiritual wall artwork. The artwork portrays the sacred trio in their distinctive forms, beautifully dressed in colorful traditional attire, with temple architecture creating a majestic backdrop. The warm saffron-orange and golden tones, intricate detailing, and ornate frame give this piece a rich devotional and artistic appeal.",
+    dimensions: "48 × 30 inches",
+    medium: "Natural Wood",
+    collection: "spiritual painting",
+    material: "carved in corex sheet",
+    designType: "Spiritual Art, Jagannath tradition of Puri Art",
+    occasion:
+      "Living Room Wall Decor, Home Temple Decor, Spiritual Interior Design",
+  },
+    {
+    id: 53,
+    slug: "swami-samarth-with-lord-dattatreya-spiritual-wall-art",
+    name: "Swami Samarth with Lord Dattatreya Spiritual Wall Art",
+    image: product53,
+    images: [product53copy, product53],
+    description:
+      "Bring a sense of devotion, peace, and spiritual strength into your space with this beautifully detailed wall artwork featuring Shri Swami Samarth seated in a serene meditative posture, with the divine silhouette of Lord Dattatreya creating a powerful backdrop. The warm saffron-gold background, vibrant orange tones, traditional spiritual elements, and ornate antique-style frame give this artwork a distinctive devotional presence that can become a meaningful focal point in any interior.",
+    dimensions: "36 × 48 inches",
+    medium: "Natural Wood",
+    collection: "spiritual painting",
+    material: "carved in corex sheet",
+    designType: "Spiritual Art, Shri Swami Samarth Art",
+    occasion:
+      "Living Room Wall Decor, Home Temple Decor, Spiritual Interior Design",
+  },
 
   {
     id: 2,

@@ -8,12 +8,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./Hero.css";
 
+import GaneshHero from"../assets/GaneshHero.webp";
 import hero0 from "../assets/Hero1.webp";
 import hero1 from "../assets/Hero2.webp";
 import hero2 from "../assets/Hero3.webp";
 import hero3 from "../assets/Hero4.webp";
 import hero4 from "../assets/Hero5.webp";
 
+import GaneshPhone from "../assets/Ganeshphone.webp";
 import hero1Mobile from "../assets/Hero1-Mobile.webp";
 import hero2Mobile from "../assets/Hero2-Mobile.webp";
 import hero3Mobile from "../assets/Hero3-Mobile.webp";
@@ -21,6 +23,7 @@ import hero4Mobile from "../assets/Hero4-Mobile.webp";
 import hero5Mobile from "../assets/Hero5-Mobile.webp";
 
 const heroImages = [
+  { desktop: GaneshHero, mobile: GaneshPhone },
   { desktop: hero0, mobile: hero1Mobile },
   { desktop: hero1, mobile: hero2Mobile },
   { desktop: hero2, mobile: hero3Mobile },
