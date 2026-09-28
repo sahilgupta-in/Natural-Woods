@@ -106,7 +106,7 @@ export const spiritualProducts: ProductItem[] = [
     image: product51copy2,
     images: [product51, product51copy, product51copy2],
     description:
-      "Bring timeless Indian spirituality and serene beauty into your space with this beautifully detailed Radha Krishna wall artwork. The artwork depicts Lord Krishna playing his flute alongside Radha, surrounded by peaceful cows, lush greenery, colorful flowers, and a nature-inspired embossed frame. The vibrant blue, pink, turquoise, and earthy tones create a striking yet harmonious visual, while the intricate leaf-patterned border adds a rich handcrafted character to the piece.",
+      "Bring the divine presence and meditative energy of Lord Shiva into your space with this striking handcrafted 3D relief artwork. Featuring a serene depiction of Mahadev with closed eyes, flowing hair, the sacred crescent moon, and traditional spiritual details, this piece creates a powerful yet peaceful focal point. A distinctive highlight of the artwork is the use of real Rudraksha beads, carefully incorporated into the Shiva-inspired ornamentation. The natural texture and earthy tones of the Rudraksha beautifully complement the sculpted relief and warm metallic finish, giving the artwork an authentic and luxurious character",
     dimensions: "60 × 84 inches",
     medium: "Natural Wood",
     collection: "spiritual painting",
